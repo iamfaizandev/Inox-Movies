@@ -126,16 +126,25 @@ tbody:hover{
     background-color: rgba(255, 255, 255, 0.6);
 
    }
+   .card-footer {
+     padding: 0;
+   }
  @media only screen and (orientation:portrait) {
-   
-    thead{
+    .table>:not(caption)>*>* {
+        padding: 0.5rem 0.5rem;
+        background-color: var(--bs-table-bg);
+        border-bottom-width: 0px;
+        box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    }
+    thead th{
         font-family: 'Chakra Petch', sans-serif;
-        font-size: 0.2rem;
-        font-weight: bold;   
+        font-size: 1rem;
+        font-weight: bold;  
+        
     }
     tbody{
         font-family: 'Old Standard TT', serif;
-        font-size: 12px;
+        font-size: 1rem;
         font-weight: bold;  
     }
     form{
@@ -148,9 +157,18 @@ tbody:hover{
         margin-top: 5%;
         width: 40%;
     }
-    
-    thead th{
-        display: flex;
-        flex-direction: column;
-    }
+     table{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+     }
+   thead th{
+    display:flex;
+    flex-direction: column;
+   }
+   tbody td{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: flex-end;
+   }
 } 
