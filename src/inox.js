@@ -13,7 +13,7 @@ var cities = ["Select City", "Bangalore", "Hyderabad"];
             { Name: "Brahmastra Part One ", Photo: "../images/Brah.jpg", time: ["6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
             { Name: "Karthikeya - 2", Photo: "../images/Kart.jpg", time: ["6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
             
-            { Name: "Pathaan", Photo: "../images/Pathaan.jpg", time: ["12:00AM","3:00AM","6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
+            { Name: "Pathaan", Photo: "https://github.com/iamfaizandev/Inox-Movies/blob/master/images/Pathaan.jpg", time: ["12:00AM","3:00AM","6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
             { Name: "Dunki", Photo: "../images/Dunki.jpg", time: ["12:00AM","3:00AM","6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
             { Name: "Jawaan", Photo: "../images/Jawaan.jpg", time: ["12:00AM","3:00AM","6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
             { Name: "Ek tha Tiger 3", Photo: "../images/Tiger.jpg", time: ["12:00AM","3:00AM","6:00AM","9:00AM","12:00PM","3:00PM", "7:00PM"] },
